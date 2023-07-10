@@ -2,3 +2,28 @@
 h2 {
 	color: blue;
 }
+
+/* Styling Flexbox */
+#flexbox-demo-bg {
+    background-color: rgb(251, 243, 226);
+    color: rgb(161, 161, 239);
+  }
+  
+  .flex-container {
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: tomato;
+    justify-content: space-evenly;
+    align-items: start;
+  }
+  
+  .flex-item {
+    color: lightgrey;
+    background-color: mediumseagreen;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
